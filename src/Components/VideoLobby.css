@@ -1,0 +1,66 @@
+/* VideoLobby.css */
+
+.video-lobby {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22%;
+    height: 80vh; /* Reduced height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000; /* Changed to black background */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.video-lobby h3 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #ccc; /* Changed text color to white */
+}
+
+.video-lobby input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555; /* Darker border to blend with black background */
+    border-radius: 5px;
+    background-color: #333; /* Dark background for input */
+    color: #fff; /* White text color */
+}
+
+.video-lobby input::placeholder {
+    color: #ccc; /* Placeholder text color */
+}
+
+.video-lobby button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.video-lobby button:hover {
+    background-color: #0056b3;
+}
+
+.video-lobby video {
+    margin-left: 16px;
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Adjusted shadow for visibility */
+}
+
+.video-lobby video:last-of-type {
+    margin-bottom: 5px;
+}
